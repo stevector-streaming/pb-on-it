@@ -6,6 +6,7 @@ require("dotenv").config({
   path: path.resolve(process.cwd(), ".env.development.local"),
 });
 
+
 if (
   process.env.WPGRAPHQL_URL === undefined &&
   process.env.PANTHEON_CMS_ENDPOINT === undefined
